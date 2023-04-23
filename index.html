@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Main website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quantico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <!-- Sidebar with image -->
+  <nav class="w3-sidebar w3-hide-medium w3-hide-small">
+    <div class="bgimg"></div>
+  </nav>
+
+  <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+  <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+      <a href="#About-Me" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About Me</a>
+      <a href="#MyProjects" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">My Projects</a>
+      <a href="#Reflection" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Reflection</a>
+      <a href="#Education_Experience" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Education & Experience</a>
+      <a href="#Contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">contact</a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="w3-main w3-padding-large">
+
+    <!-- Menu icon to open sidebar -->
+    <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-hover-text-black" id="home">
+      <h1 class="w3-jumbo"><b>Shelly Ah Yow</b></h1>
+    
+    
+       <!--pinguin-->
+
+      <div class="penguin">
+        <div class="penguin-bottom">
+          <div class="right-hand"></div>
+          <div class="left-hand"></div>
+          <div class="right-feet"></div>
+          <div class="left-feet"></div>
+        </div>
+        <div class="penguin-top">
+          <div class="right-cheek"></div>
+          <div class="left-cheek"></div>
+          <div class="belly"></div>
+          <div class="right-eye">
+            <div class="sparkle"></div>
+          </div>
+          <div class="left-eye">
+            <div class="sparkle"></div>
+          </div>
+          <div class="blush-right"></div>
+          <div class="blush-left"></div>
+          <div class="beak-top"></div>
+          <div class="beak-bottom"></div>
+        </div>
+       </div>
+       <!--End of pinguin-->
+      </header>
+
+    <!-- About Section -->
+
+    <div class="w3-padding-24" id="about">
+      <h2 id="About-Me" class="w3-padding-24">About Me</h2>
+
+      <img src="Photos/me.JPG" alt="My Image">
+      
+      <p>Energetic student eager to gain experience with superior work ethic and good teamwork, problem-solving and organizational skills. Eager
+          to gain knowledge in project coordination and willing to take on any task to help the team. </p>
+
+      <p>I have a real passion about makeup and hair styling. I am also a passionate of gaming. My two favourite games that i played the most are 
+         Genshin Impact and Valorant.</p>
+
+      <p>My most important principle is respect as Thomas S. Monson has always said "“When we treat people merely as they are, they will remain as they are. 
+         When we treat them as if they were what they should be, they will become what they should be." </p>
+
+      <p>My favourite quote: "Life is like an elevator. Up and down, just make sure you get off on the right floor" by Keith Douglas</p>
+
+      <p>My favourite bible Quote: The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you,
+        not wanting anyone to perish, but everyone to come to repentance.Psalm 103:8-</p>
+      
+      <p>One of the most crucial ingredients for success is the discipline to act on what i know is right even when it doesn't feel 
+          right; these everyday decisions frequently include accepting accountability for my own judgments and deeds.
+          I am always careful with what i say and do since other people are affected by what i do. I always care for others.</p>
+
+    </div>
+
+    <!-- My Project Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="Projects">
+      <h2 id="MyProjects" class="w3-text-grey">My Projects</h2>
+
+      <h3> <a href="https://github.com/ALt210/webiste/tree/main/project">My github repository</a></h3>
+
+      <!-- Grid for projects -->
+      <div class="w3-row-padding">
+
+          <img src="Photos/webdesign1.png" alt="webdesign" class="w3-row-padding" id="webdesign">
+        </a>
+
+        <a href="project/Week 1/Week 1/index.html">
+          <img src="Photos/webdesign1.png" alt="webdesign" class="w3-row-padding" id="webdesign">
+        </a>
+
+        <a href="project/week 2/rawtext.html">
+          <img src="Photos/webpageDesign.png" alt="webpage" class="w3-row-padding" id="webpage">
+        </a>
+
+        <a href="project/flatland/flatland_0.html">
+          <img src="Photos/flatland.png" alt="flatland" class="w3-row-padding" id="FL">
+        </a>
+
+        <a href="project/Rps/RPS_0.html">
+          <img src="Photos/RPS.png" alt="RPS" class="w3-row-padding" id="rps">
+        </a>
+
+        <a href="project/5b_RSS/5b_RSS/index.html">
+          <img src="Photos/rss.png" alt="RSS" class="w3-row-padding" id="rss">
+        </a>
+        
+        <a href="project/todo_list(1)/todo_list/todo.html">
+          <img src="Photos/TODOLIST.png" alt="todolist" class="w3-row-padding" id="TODOLIST">
+        </a>
+      <!-- End photo grid -->
+      </div>
+    <!-- End Portfolio Section -->
+
+    <!-- Education & Experience Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="Education-Experience">
+
+      <h3 id="Education_Experience" class="w3-padding-24">Education & Experience</h3>
+      
+      <p><span class="w3-large w3-text-black w3-margin-right">Shelly Ah Yow.</span> Second year student.</p>
+      <p><span class="w3-large w3-text-black w3-margin-right">High School.</span> St Andrews School.</p> 
+      <p><span class="w3-large w3-text-black w3-margin-right">St Andrews School.</span> Jan 2014 till June 2021.</p> 
+      <p><span class="w3-large w3-text-black w3-margin-right">University.</span> Curtin University.</p> 
+      <p><span class="w3-large w3-text-black w3-margin-right">Bachelor of Comerce.</span> Bcom Business Information Systems.</p>
+      <p><span class="w3-large w3-text-black w3-margin-right">Lottotech Ltd.</span> Software Quality Assurance trainee.</p>
+      <p><span class="w3-large w3-text-black w3-margin-right">Lottotech Ltd.</span> 22 Nov 2022 to 28 Feb 2023.</p>
+      <p>A hardworking student and an endeavour person.</p><br>
+    </div>
+
+    <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Python</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal">80%</div>
+          </div>
+          <p>HTML5</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal">
+              <div class="w3-center w3-text-white">65%</div>
+            </div>
+          </div>
+          <p>CSS</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal">65%</div>
+          </div>
+          <p>Javascript</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal">55%</div>
+          </div>
+          <br>
+      
+    <!-- Reflection Section -->
+      <h3 id="Reflection" class="w3-padding-24">My Reflection</h3>
+      
+      <p> At first i did find it hard to learn HTML5 as there were a lot of headers and body to put.
+          For the first three weeks i was lost in writting the codes of different projects did in lectures and tutorials.
+          Now i dont really find this complicated because i atteneded lectures and tutorials. 
+          I have been able to understand the concept of html, css and javascript of how it works.</p>
+
+      <p>This is interesting as i did found many ways of how to make a website fancy and attractive. In css i can style a webpage in many ways i want.
+        In javascript we can add animation as well as navigations bar to make it more interesting.</p>
+
+      <p>The way a webpage is displayed may differ depending on how various browsers parse HTML and CSS code. It's critical to design websites that can adjust 
+          to various screen sizes in light of the proliferation of mobile devices. Older browsers might not be able to support certain CSS properties, 
+          which can restrict your design possibilities. These are the difficulties that i did find while learning HTML and CSS.</p>
+
+      <p>In terms of benefits about learning javascript is that it is a high-performance language with speedy complicated operation execution, 
+         JavaScript is ideal for developing dynamic web apps. JavaScript does not need server-side computation, 
+         it can be utilized to construct interactive user interfaces. In terms of constraints is that Javascript may be interpreted differently by different browsers, 
+         which can cause compatibility problems and make it challenging to develop cross-browser compatible apps.</p>
+
+      <p>Before learning html, CSS, and javascript, i was studying Python. The ability to learn other coding languages was incredibly nice
+         to have more knowledge about coding.</p>
+
+      <p>I am having fun building a website using html, css and javascript whether using a template or bulding the HTML code from scratch. After my graduation 
+         i can consider to become a web developer and to learn these 3 coding languages in depth.</p>
+
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-padding-32 w3-co ntent w3-text-grey" id="contact">
+      <h2 id="Contact" class="w3-padding-24">Contact</h2>
+
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Mauritius</p>
+        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +230 57944015</p>
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: shellahyow49@gmail.com</p>
+      </div>
+
+      <!-- Image of location/map -->
+      <img src="Photos/location.jpg" alt="A photo of a city skyline" class="w3-image w3-greyscale">
+
+      
+    
+      <p>Lets get in touch. Send me a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+
+      </form>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    <!-- End Contact Section -->
+    </div>  
+    
+    <!-- Footer -->
+    
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge">
+      <!-- <i class="fa-facebook w3-hover-opacity" style="--fa-primary-color: gold;"></i> -->
+      
+      <i class="fa-brands fa-facebook w3-hover-opacity"></i>
+      <i class="fa-brands fa-instagram w3-hover-opacity"></i>
+      <i class="fa-brands fa-snapchat w3-hover-opacity"></i>
+      <i class="fa-brands fa-linkedin w3-hover-opacity"></i>
+      <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    
+      <!-- End footer -->
+    </footer>
+    
+    <FOOTER>
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">website</span> is licensed under a <a rel="license" 
+      href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+    </FOOTER>
+  <!-- END PAGE CONTENT -->
+  </div>
+  
+  <script src="javascript/main-script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer" data-auto-replace-svg="nest"></script>
+</body>
+</html>
+
+<!--Refrences-->
+<!--pinguin animation - https://codepen.io/CyberGirl_/pen/qMmNxe-->
+<!--social media animation: https://fontawesome.com/docs/web/use-with/jquery-->
